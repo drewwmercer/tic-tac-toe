@@ -1,1 +1,33 @@
+body {
+  background: url("https://images.pexels.com/photos/278918/pexels-photo-278918.jpeg");
+  color: white;
+}
 
+#admin {
+  margin-top: 10%;
+  border-top: 2px solid white;
+}
+
+#container {
+/*   background: #574b60; */
+/*   width: 40vw; */
+  height: 35vw;
+/*   margin: 0 auto; */
+}
+
+.col-sm {
+  height: 25%;
+/*   border: solid 3px #f0ffce; */
+  text-align: center;
+  color: #f2f8d8;
+  font-size: 2em;
+  padding-top: 2vw;
+}
+
+#cell1, #cell2, #cell4, #cell5, #cell7, #cell8 {
+  border-right: solid 4px white;
+} 
+
+#cell1, #cell2, #cell3, #cell4, #cell5, #cell6 {
+  border-bottom: solid 4px white;
+} 
