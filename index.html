@@ -2,81 +2,81 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Linking to Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
-        crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <!-- Linking to Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
 
-    <title>Tic Tac Toe || Drew Mercer</title>
+  <title>Tic Tac Toe || Drew Mercer</title>
 </head>
 
 <body>
 
   <div class="container text-center">
-  <h1>Tic-Tac-Toe</h1>
-  <h4>See it live on my
-    <a href="http://www.drewwmercer.xyz/tic-tac-toe/" target="_blank">GitHub Pages</a> site</h4>
+    <h1>Tic-Tac-Toe</h1>
+    <h4>See it live on my
+      <a href="http://www.drewwmercer.xyz/tic-tac-toe/" target="_blank">GitHub Pages</a> site</h4>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-sm" id="cell1">
+    <div class="container">
+      <div class="row" id="row1">
+        <div class="col-sm" id="cell1">
+        </div>
+        <div class="col-sm" id="cell2">
+        </div>
+        <div class="col-sm" id="cell3">
+        </div>
       </div>
-      <div class="col-sm" id="cell2">
+      <div class="row">
+        <div class="col-sm" id="cell4">
+        </div>
+        <div class="col-sm" id="cell5">
+        </div>
+        <div class="col-sm" id="cell6">
+        </div>
       </div>
-      <div class="col-sm" id="cell3">
+      <div class="row">
+        <div class="col-sm" id="cell7">
+        </div>
+        <div class="col-sm" id="cell8">
+        </div>
+        <div class="col-sm" id="cell9">
+        </div>
       </div>
+
     </div>
-    <div class="row">
-      <div class="col-sm" id="cell4">
+    <div class="row" id="admin">
+      <div class="col-md">
+        <div class="container" id="choose">
+          <p>Choose your icon:</p>
+          <input type="radio" id="x" value="X" name="choose" checked/>
+          <label for="x">X </label>
+          <input type="radio" id="o" value="O" name="choose" />
+
+          <label for="o">O</label>
+        </div>
       </div>
-      <div class="col-sm" id="cell5">
+      <div class="col-md">
+        <!-- Placeholder -->
       </div>
-      <div class="col-sm" id="cell6">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm" id="cell7">
-      </div>
-      <div class="col-sm" id="cell8">
-      </div>
-      <div class="col-sm" id="cell9">
+      <div class="col-md">
+        <button class="btn btn-danger" id="reset">Reset</button>
       </div>
     </div>
 
   </div>
-  <div class="row" id="admin">
-    <div class="col-md">
-      <div class="container" id="choose">
-        <p>Choose your icon:</p>
-        <input type="radio" id="x" value="X" name="choose" checked/>
-        <label for="x">X </label>
-        <input type="radio" id="o" value="O" name="choose" />
 
-        <label for="o">O</label>
-      </div>
-    </div>
-    <div class="col-md">
-      <!-- Placeholder -->
-    </div>
-    <div class="col-md">
-      <button class="btn btn-danger" id="reset">Reset</button>
-    </div>
-  </div>
-
-</div>
-
-    <!-- Linking to jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
-        crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./js/script.js"></script>
+  <!-- Linking to jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
 </body>
 
 </html>
