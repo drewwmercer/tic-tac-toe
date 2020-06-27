@@ -4,7 +4,7 @@ $(document).ready(function() {
         $(".col-sm").on("click", function() {
         
        if ($(this).text().length > 0) {
-          alert("Invalid move! Make sure you have chosen to play as X or O and that you haven't selected a prevoously played square.");
+          alert("Invalid move! Make sure you have chosen to play as X or O and that you haven't selected a previously played square.");
           return;
         }
         
